@@ -1,0 +1,88 @@
+#   Template
+#
+# - name: Game Name (string)
+#   description: Gameplay introduction (string)
+#   min_players: Minimum Number of Players (integer)
+#   max_players: Maximum Number of Players (integer)
+#   play_time: Game Length in Minutes, can be blank (integer); can be blank
+#   tags: tag1,tag2,tag3 [comma separated (string); can be blank]
+#   ext_link: A link that further describes the game (string); can be blank
+
+# Notes:
+# 1. max (integer) should be greater than min (integer)
+# 2. make sure to close special characters in (string), it may interfere with html
+# 3. tags are based on boardgamegeek.com "Mechanisms"
+
+list:
+
+- name: UNO
+  description: Players race to empty their hands and catch opposing players with cards left in theirs, which score points. In turns, players attempt to play a card by matching its color, number, or word to the topmost card on the discard pile. If unable to play, players draw a card from the draw pile, and if still unable to play, they pass their turn. Wild and special cards spice things up a bit.
+  min_players: 2
+  max_players: 10
+  play_time: 30
+  tags: hand-management
+  ext_link:
+
+- name: Secret Hitler
+  description: Each player is randomly and secretly assigned to be a liberal or a fascist, and one player is Secret Hitler. The fascists coordinate to sow distrust and install their cold-blooded leader; the liberals must find and stop the Secret Hitler before it's too late. The liberal team always has a majority.
+  min_players: 6
+  max_players: 10
+  play_time: 45
+  tags: teamfight,hidden-identity
+  ext_link: https://boardgamegeek.com/boardgame/188834/secret-hitler
+
+- name: Exploding Kittens
+  description: Players take turns drawing cards until someone draws an exploding kitten and loses the game. The deck is made up of cards that let you avoid exploding by peeking at cards before you draw, forcing your opponent to draw multiple cards, or shuffling the deck.  The game gets more and more intense with each card you draw because fewer cards left in the deck means a greater chance of drawing the kitten and exploding in a fiery ball of feline hyperbole.
+  min_players: 3
+  max_players: 5
+  play_time: 15
+  tags: hot-potato,hand-management
+  ext_link:
+
+- name: 100
+  description: Draw 5 cards. Players take turns to affect the game counter. Number cards always adds its value to the game counter, while Special cards have abilities and are considered a turn. The game counter cannot exceed 100; The player should play a special card or subtract the counter by 10 with the Number(10) card. If they cant play a card, then they are eliminated. Keep going until theres only 1 player left.
+  min_players: 3
+  max_players: 10
+  play_time: 20
+  tags: hand-management
+  ext_link:
+
+- name: Codenames
+  description: The game is divided into red and blue, each side has a team leader, the team leader's goal is to lead their team to the final victory. At the beginning of the game, there will be 25 cards on the table with different words. Each card has a corresponding position, representing different colors. Only the team leader can see the color of the card. The team leader should prompt according to the words, let his team members find out the cards of their corresponding colors, and find out all the cards of their own colors to win.
+  min_players: 6
+  max_players: 10
+  play_time: 15
+  tags: teamfight,communication-limit
+  ext_link:
+
+- name: Trial by Trolley
+  description: One player acts as the Trolley Operator and must choose where to send a murderous, out of control, trolley. Every other player at the table plays cards and argues in order to convince the operator to spare their lives and condemn everyone on the other track to a gruesome death-by-trolley.  Each round, one player will act as the trolley conductor. This person will be the judge, and will choose which track the trolley will murder.  Each other player is divided evenly among teams, and each player(s) will have a role for the round.
+  min_players: 3
+  max_players: 8
+  play_time: 30
+  tags: storytelling, player-judge
+  ext_link: https://playingcards.io/game/trial-by-trolley
+
+- name: Red Flags
+  description: Your goal is to use "Perk" cards to create the best date for "The Single" (the judge for this round). However, there is a catch. Players may also play "Red Flags" (bad traits) in an attempt to sabotage another player's hot date.  Each player has an opportunity to argue why their date is the best one for "The Single," who chooses which awful date wins...
+  min_players: 3
+  max_players: 10
+  play_time: 30
+  tags: player-judge,storytelling
+  ext_link:
+
+- name: Zap - Space Mutiny
+  description: Each player will have 1 Hidden Identity, 1 Skill, a hand of 3-5 action cards (Purple deck labeled Zap) and hearts which represent health. Each Hidden Identity has a unique goal; eliminate your enemies by reducing their hearts to zero and your team wins.
+  min_players: 4
+  max_players: 8
+  play_time: 30
+  tags: teamfight,hidden-identity
+  ext_link: https://playingcards.io/game/zap
+
+- name: Joking Hazard
+  description: Draw 7 cards. The deck plays the first card, select a Judge to play the second, then everyone selects a third card to create a three panel comic strip. The Judge picks a winner.
+  min_players: 3
+  max_players: 10
+  play_time: 40
+  tags: player-judge
+  ext_link:
