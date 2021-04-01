@@ -24,7 +24,7 @@ list:
   ext_link:
 
 - name: Secret Hitler
-  description: Each player is randomly and secretly assigned to be a liberal or a fascist, and one player is Secret Hitler. The fascists coordinate to sow distrust and install their cold-blooded leader; the liberals must find and stop the Secret Hitler before it's too late. The liberal team always has a majority.
+  description: At the beginning of the game, players close their eyes, and the fascists reveal themselves to one another. Secret Hitler keeps his eyes closed, but puts his thumb up so the fascists can see who he is. The fascists learn who Hitler is, but Hitler doesn't know who his fellow fascists are, and the liberals don't know who anyone is.  Each round, players elect a President and a Chancellor who will work together to enact a law from a random deck. If the government passes a fascist law, players must try to figure out if they were betrayed or simply unlucky. Secret Hitler also features government powers that come into play as fascism advances. The fascists will use those powers to create chaos unless liberals can pull the nation back from the brink of war.  The objective of the liberal team is to pass five liberal policies or assassinate Secret Hitler. The objective of the fascist team is to pass six fascist policies or elect Secret Hitler chancellor after three fascist policies have passed.
   min_players: 6
   max_players: 10
   play_time: 45
@@ -55,8 +55,16 @@ list:
   tags: teamfight,communication-limit
   ext_link:
 
+- name: Wavelength
+  description: Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, and draws a card with a pair of binaries on it (such as Job - Career, Rough - Smooth, Fantasy - Sci-Fi, Sad Song - Happy Song, etc). The Psychic must then provide a clue that is *conceptually* where the bullseye is located between those two binaries.  For example, if the card this round is HOT-COLD and the bullseye is slightly to the "cold" side of the centre, the Psychic needs to give a clue somewhere in that region. Perhaps "salad"?  After the Psychic gives their clue, their team discusses where they think the bullseye is located and turns the dial to that location on that spectrum.
+  min_players: 6
+  max_players: 8
+  play_time: 30
+  tags: teamfight,communication-limit
+  ext_link:
+
 - name: Trial by Trolley
-  description: One player acts as the Trolley Operator and must choose where to send a murderous, out of control, trolley. Every other player at the table plays cards and argues in order to convince the operator to spare their lives and condemn everyone on the other track to a gruesome death-by-trolley.  Each round, one player will act as the trolley conductor. This person will be the judge, and will choose which track the trolley will murder.  Each other player is divided evenly among teams, and each player(s) will have a role for the round.
+  description: Each round is started by designating one player as the conductor and splitting the remaining players into two teams. Each team is assigned to one side of the track. One player on each team draws 3 innocent cards, one player on each team draws 3 guilty cards, and one player on each team draws 3 modifier cards. Each team draws a random innocent card and places it in the first slot on their side of the track. The two players that drew innocent cards each place a card in the second slot on their side of the track. The two players that drew guilty cards each place a card in the third slot on the opponents track. And the two players that drew modifier cards each place a card in the modifier slots anywhere on the board, on either side. Now that the board is completed, all players debate to convince the conductor to choose which side dies. Each player on the losing side receives a death token. All cards are discarded and the next conductor is chosen.
   min_players: 3
   max_players: 8
   play_time: 30
